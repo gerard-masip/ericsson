@@ -1,0 +1,46 @@
+*.class
+.DS_Store
+
+# Package Files #
+build/**/*.jar
+*.war
+*.ear
+*.iml
+*.swp
+*.ipr
+*.iws
+*.log
+
+.classpath
+.project
+.gradle/
+*/.dockercfg
+model/src/thrift
+/build/
+out/
+classes/
+.factorypath
+**/.bundle/config
+**/src/main/resources/**/gems
+smoke_tests/vendor
+
+.grand-central-build-dependencies-cache/
+
+**/docs/node_modules/
+**/docs/public/
+**/docs/public/
+docs/_site
+bin/
+
+## IntelliJ IDEA specifics
+/**/.idea/*
+!/**/.idea/eclipseCodeFormatter.xml
+!/**/.idea/saveactions_settings.xml
+!/**/.idea/codeStyleSettings.xml
+!/**/.idea/externalDependencies.xml
+!/**/.idea/runConfigurations/ChartDataService.xml
+
+## Eclipse specifics
+/**/.settings/*
+!/**/.settings/org.eclipse.jdt.core.prefs
+!/**/.settings/org.eclipse.jdt.ui.prefs
